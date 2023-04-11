@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simple Quiz</h1>
+    <div class="quiz">
+      <h2 id="question">What is my name?</h2>
+      <div class="answer-button">
+        <input type="radio" name="answer" id="answer-a" value="a">
+        <label for="answer-a">A : Answer A</label>
+      </div>
+      <div class="answer-button">
+        <input type="radio" name="answer" id="answer-b" value="b">
+        <label for="answer-b">B : Answer B</label>
+      </div>
+      <div class="answer-button">
+        <input type="radio" name="answer" id="answer-c" value="c">
+        <label for="answer-c">C : Answer C</label>
+      </div>
+      <div class="answer-button">
+        <input type="radio" name="answer" id="answer-d" value="d">
+        <label for="answer-d">D : Answer D</label>
+      </div>
+      <div class="score">
+        <h2 id="score-text"></h2>
+        <img src="" alt="">
+      </div>
+    </div>
+
+    <div class="action-buttons">
+      <button class="btn" id="submit-button">Submit</button>
+      <button class="btn" id="reload-button" style="display: none;">Reload</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
